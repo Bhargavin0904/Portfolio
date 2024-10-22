@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+          <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-icon" id="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a class="nav-link" href="#home"><i class="fas fa-home"></i>Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about"><i class="fas fa-user"></i>About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills-section"><i class="fas fa-laptop-code"></i>Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects"><i class="fas fa-project-diagram"></i>Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact-section"><i class="fa-solid fa-address-card"></i>Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Hi, I'm <span>Bhargavi</span></h1>
+        <h2><span>S</span>oftware <span>D</span>eveloper</h2>
+        <h2><span>F</span>ront-end <span>D</span>eleveloper</h2>
+        <a href="#contact-section" class="btn">Contact Me</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h1>About Me</h1>
+        <p>I am a passionate and motivated Software Developer with a focus on Front-end Development and Full-Stack solutions. As a recent graduate, I have honed my skills in modern web development technologies such as HTML, CSS, JavaScript, and frameworks like React. I thrive on building intuitive and user-friendly web applications, always aiming to deliver seamless user experiences. During my academic journey, I have worked on projects that have strengthened my understanding of web architecture and full-stack development. My exposure to the entire development cycle, from designing user interfaces to managing databases, has equipped me with a holistic understanding of software engineering. As a fresher, I bring a fresh perspective and a hunger to learn and adapt in a fast-paced industry. I constantly seek opportunities to expand my knowledge in emerging technologies. I am eager to collaborate with diverse teams, contribute to meaningful projects, and take on challenging tasks that push my technical boundaries. I am excited to begin my professional journey as a Software Developer and am looking forward to contributing my skills to innovative projects that make an impact.</p>
+    </section>
+
+    <!-- Skills Section -->
+    
+    <section id="skills-section">
+        <div class="skills-header">
+            <h1>Skills</h1>
+        </div>
+
+        <div class="skills-container">
+            <div class="skills-menu">
+                <button id="btnLanguages">Languages</button>
+                <button id="btnFrameworks">Frameworks / Libraries</button>
+                <button id="btnDatabases">Databases</button>
+            </div>
+            <div class="skills-display" id="skillsDisplay">
+                <!-- Content will be displayed here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <header>
+    <section id="projects">
+        <h1>Projects</h1>
+        <div class="swiper-container">
+            <div class="swiper-container">
+                <!-- Each project goes inside a swiper-slide -->
+                <div class="swiper-slide">
+                    <div class="project-card">
+                        <img src="project1.jpg" alt="Trip Planner Website">
+                        <div class="project-info">
+                            <h2>Trip Planner Website</h2>
+                            <p>Developed a comprehensive website across India using PHP.</p>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="swiper-slide">
+                    <div class="project-card">
+                        <img src="project3.jpg" alt="Rock Paper Scissors Game">
+                        <div class="project-info">
+                            <h2>Rock Paper Scissors Game</h2>
+                            <p>Rock paper scissors game implemented using HTML, CSS, JavaScript and React</p>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="swiper-slide">
+                    <div class="project-card">
+                        <img src="project2.jpg" alt="Tic Tac Toe">
+                        <div class="project-info">
+                            <h2>Tic Tac Toe</h2>
+                            <p>Developed a tic tac toe game using HTML, CSS and JavaScript</p>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="swiper-slide">
+                    <div class="project-card">
+                        <img src="project4.jpg" alt="Calculator">
+                        <div class="project-info">
+                            <h2>Calculator</h2>
+                            <p>Developed a Calculator using HTML, CSS and JavaScript.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+    </section>
+</header>
+
+    <!-- Contact Section -->
+   
+
+        <section id="contact-section">
+            <h4>Get In Touch</h4>
+            <h1>Contact Me</h1>
+        
+            <form class="contact-form">
+                <div class="form-row">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                
+                <div class="form-row">
+                    <textarea name="message" placeholder="Message" required></textarea>
+                </div>
+                <button type="submit">SEND</button>
+            </form>
+
+        <div class="social-icons">
+            <a href="bgavi04@gmail.com" target="_blank">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/bhargavi-narayanan-7a9a03275" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Bhargavin0904" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+        
+    
+    </section>
+    <footer>
+        <p>&copy; 2024 Bhargavi</p>
+    </footer>
+    <script src="portfolio.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+</html>
